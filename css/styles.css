@@ -1,0 +1,375 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* header*/
+
+.header-menu-link {
+    color: #111;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em; 
+}
+
+.header-logo {
+    color: #111;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: -0.03em; 
+}
+
+.header-logo-italic {
+        font-style: italic;
+}
+
+/* hero */
+
+.hero {
+    background-color: rgba(17, 17, 17, 0.60);
+}
+
+.hero-title {
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.21;
+    letter-spacing: -0.03em;}
+
+.hero-btn {
+color: #FFF;
+font-family: inherit;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-made-link {
+    color: #FFF;
+    font-family: inherit;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: normal;
+}
+
+.hero-scrol-link {
+    color: #FFF;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.29;
+        letter-spacing: -0.03em;
+}
+
+/* features */
+
+.features {
+background-color: #1E1823;
+}
+
+.features-list {
+
+}
+
+.features-item {}
+
+.features-subtitle {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.features-item-text {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+}
+
+/* taste */
+
+.taste {}
+
+.taste-title {
+    color: #111;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.16;
+        letter-spacing: -0.03em; 
+        text-transform: uppercase;
+}
+
+.taste-title span{
+    color: #FD9222;
+}
+
+.taste-text {
+    color: #111;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em; 
+}
+
+.taste-list {}
+
+.taste-item {}
+
+.taste-img {}
+
+.taste-subtitle {
+    color: #FFF;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+}
+
+/* made */
+
+.made {}
+
+.made-title {
+    color: #111;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;}
+
+ .made-title span {
+color: #FD9222;
+ }
+
+.made-img {}
+
+.made-subtitle {
+    color: #111;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.33;   
+}
+
+.made-list {}
+
+.made-item {}
+
+.made-item-text {
+    color: #111;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+}
+
+/* products */
+.products {}
+
+.products-title {
+    color: #111;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+    letter-spacing: -0.03em; 
+    text-transform: uppercase;
+}
+
+.products-title span {
+color: #FD9222;
+}
+
+.products-list {}
+
+.products-item {}
+
+.products-img {}
+
+.products-subtitle {
+    color: #111;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 1.33;
+        letter-spacing: -0.02em; 
+        text-transform: uppercase;
+}
+
+.products-text {
+    color: rgba(17, 17, 17, 0.70);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.17;
+        letter-spacing: -0.02em; 
+}
+
+.products-price {
+    color: #111;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: normal;
+}
+
+/* bestseller */
+
+.bestseller {}
+
+.bestseller-title {   
+  color:  #111;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.17;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+}
+
+.bestseller-title span{
+    color: #FD9222;
+}
+
+.bestseller-list {}
+
+.bestseller-item {}
+
+.bestseller-img {}
+
+.bestseller-subtitle {}
+
+/* review */
+
+.review {}
+
+.review-title {
+    color: #111;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.17;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+}
+
+.review-title span{
+color: #FD9222;
+}
+
+.review-list {}
+
+.review-item {}
+
+.review-img {}
+
+.review-subtitle {
+color: #111;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.33;
+}
+
+.review-text {
+    color: rgba(17, 17, 17, 0.70);
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+}
+
+.review-btn {
+    color: #111;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: normal;
+}
+
+/* footer */
+
+.footer {
+background-color: #1E1823; ;
+}
+
+.footer-title {
+    color: #FFF;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.21; 
+        letter-spacing: -0.02em; 
+}
+.footer-title span{
+    color: #FD9222;
+}
+
+.footer-subtitle {
+    color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.29;
+}
+
+.footer-social-list {}
+
+.footer-social-item {}
+
+.footer-social-link {}
+
+.footer-adress {}
+
+.footer-adress-list {}
+
+.footer-adress-item {}
+
+.footer-adress-link {
+    color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+}
+
+.footer-nav {}
+
+.footer-nav-list {}
+
+.footer-nav-item {}
+
+.footer-nav-link {
+    color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -0.02em;
+}
