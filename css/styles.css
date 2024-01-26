@@ -5,10 +5,30 @@ body {
 
 ul {
     list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 a {
     text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1166px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .visually-hidden {
@@ -18,7 +38,6 @@ a {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -26,6 +45,11 @@ a {
 }
 
 /* header*/
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
 
 .header-menu-link {
     color: #111;
@@ -50,7 +74,18 @@ a {
 /* hero */
 
 .hero {
+    padding-bottom: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.hero-container {
     background-color: rgba(17, 17, 17, 0.60);
+    border-radius: 30px;
+    padding: 380px 40px 40px 40px;
+    max-width: 1166px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -58,7 +93,10 @@ a {
     font-size: 28px;
     font-weight: 500;
     line-height: 1.21;
-    letter-spacing: -0.03em;}
+    letter-spacing: -0.03em;
+max-width: 484px;
+margin-bottom: 32px;
+}
 
 .hero-btn {
 color: #FFF;
@@ -88,6 +126,8 @@ font-family: inherit;
 
 .features {
 background-color: #1E1823;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 
 .features-list {
@@ -101,6 +141,7 @@ background-color: #1E1823;
     font-size: 18px;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 18px;
 }
 
 .features-item-text {
@@ -112,7 +153,10 @@ background-color: #1E1823;
 
 /* taste */
 
-.taste {}
+.taste {
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
 
 .taste-title {
     color: #111;
@@ -122,6 +166,9 @@ background-color: #1E1823;
         line-height: 1.16;
         letter-spacing: -0.03em; 
         text-transform: uppercase;
+        max-width: 412px;
+        margin: 0 auto;
+        margin-bottom: 28px;
 }
 
 .taste-title span{
@@ -136,6 +183,9 @@ background-color: #1E1823;
         font-weight: 400;
         line-height: 1.29;
         letter-spacing: -0.02em; 
+        margin-bottom: 50px;
+        max-width: 486px;
+        margin: 0 auto;
 }
 
 .taste-list {}
@@ -155,7 +205,10 @@ background-color: #1E1823;
 
 /* made */
 
-.made {}
+.made {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 .made-title {
     color: #111;
@@ -164,7 +217,11 @@ background-color: #1E1823;
     font-weight: 600;
     line-height: 1.17;
     letter-spacing: -0.03em;
-    text-transform: uppercase;}
+    text-transform: uppercase;
+max-width: 205px;
+margin: 0 auto;
+margin-bottom: 50px;
+}
 
  .made-title span {
 color: #FD9222;
@@ -176,7 +233,9 @@ color: #FD9222;
     color: #111;
         font-size: 18px;
         font-weight: 600;
-        line-height: 1.33;   
+        line-height: 1.33; 
+        max-width: 350px;  
+        margin-bottom: 28px;
 }
 
 .made-list {}
@@ -192,7 +251,11 @@ color: #FD9222;
 }
 
 /* products */
-.products {}
+.products {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    margin: 0 auto;
+}
 
 .products-title {
     color: #111;
@@ -202,6 +265,9 @@ color: #FD9222;
     line-height: 1.17;
     letter-spacing: -0.03em; 
     text-transform: uppercase;
+    max-width: 196px;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .products-title span {
@@ -240,7 +306,11 @@ color: #FD9222;
 
 /* bestseller */
 
-.bestseller {}
+.bestseller {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+}
 
 .bestseller-title {   
   color:  #111;
@@ -250,6 +320,9 @@ color: #FD9222;
         line-height: 1.17;
         letter-spacing: -0.03em;
         text-transform: uppercase;
+        max-width: 160px;
+        margin: 0 auto;
+        margin-bottom: 50px;
 }
 
 .bestseller-title span{
@@ -266,7 +339,11 @@ color: #FD9222;
 
 /* review */
 
-.review {}
+.review {
+   padding-top: 60px;
+   padding-bottom: 120px;
+    margin: 0 auto;
+}
 
 .review-title {
     color: #111;
@@ -280,6 +357,9 @@ color: #FD9222;
 
 .review-title span{
 color: #FD9222;
+max-width: 268px;
+margin: 0 auto;
+margin-bottom: 50px;
 }
 
 .review-list {}
@@ -315,7 +395,10 @@ color: #111;
 /* footer */
 
 .footer {
-background-color: #1E1823; ;
+background-color: #1E1823; 
+padding-top: 50px;
+padding-bottom: 50px;
+margin: 0 auto;
 }
 
 .footer-title {
@@ -324,6 +407,7 @@ background-color: #1E1823; ;
         font-weight: 500;
         line-height: 1.21; 
         letter-spacing: -0.02em; 
+        max-width: 300px;
 }
 .footer-title span{
     color: #FD9222;
