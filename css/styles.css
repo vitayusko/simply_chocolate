@@ -483,6 +483,7 @@ margin-bottom: 50px;
     display: flex;
     gap: 28px;
     margin-bottom: 50px;
+    padding-top: 40px;
 }
 
 .review-item {
@@ -500,9 +501,10 @@ position: relative;
     height: 80px;
     border-radius: 100%;
     display: flex;
-    margin: 0 auto;
     margin-bottom: 18px;
     position: absolute;
+    top: -40px;
+    right: 140px;
 }
 
 .review-subtitle {
@@ -545,6 +547,13 @@ padding-bottom: 50px;
 margin: 0 auto;
 }
 
+.footer-top-content {
+    display: flex;
+    padding-bottom: 54px;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.10);
+    margin-bottom: 24px;
+}
+
 .footer-title {
     color: #FFF;
         font-size: 28px;
@@ -552,28 +561,42 @@ margin: 0 auto;
         line-height: 1.21; 
         letter-spacing: -0.02em; 
         max-width: 300px;
+        margin-right: 510px;
 }
 .footer-title span{
     color: #FD9222;
 }
-
+.footer-social-conainer {
+    max-width: 112px;
+    margin-right: 50px;
+}
 .footer-subtitle {
     color: #FFF;
-        text-align: center;
         font-size: 14px;
         font-weight: 500;
         line-height: 1.29;
+        margin-bottom: 14px;
 }
 
-.footer-social-list {}
+.footer-social-list { 
+    display: flex;
+}
 
-.footer-social-item {}
+.footer-social-item {
+    gap: 14px;
+}
 
 .footer-social-link {}
 
+.footer-adress-container {
+    max-width: 164px;
+}
+
 .footer-adress {}
 
-.footer-adress-list {}
+.footer-adress-list {
+   
+}
 
 .footer-adress-item {}
 
@@ -587,9 +610,16 @@ margin: 0 auto;
         letter-spacing: -0.02em;
 }
 
+.footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .footer-nav {}
 
-.footer-nav-list {}
+.footer-nav-list {
+    display: flex;
+gap: 24px;}
 
 .footer-nav-item {}
 
@@ -600,4 +630,14 @@ margin: 0 auto;
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: -0.02em;
+}
+
+.subscribe-footer-btn {
+    color: #FFF;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: normal;
+padding: 17px 40px;
+border-radius: 100px;
+    background: #FD9222;
 }
