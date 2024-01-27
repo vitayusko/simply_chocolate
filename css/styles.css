@@ -448,9 +448,16 @@ color: #FD9222;
     -radius: 15px 15px 0px 0px;
 }
 
+.bestseller-subtitle-container {
+    border-radius: 0px 0px 15px 15px;
+        border: 1px solid rgba(17, 17, 17, 0.10);
+        border-top: none;
+        background: #FFF;
+        padding: 28px 0; 
+}
+
 .bestseller-subtitle {
     text-align: center;
-    margin: 28px 0;
 }
 
 /* review */
