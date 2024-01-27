@@ -51,6 +51,15 @@ button {
     padding-bottom: 32px;
 }
 
+.header-container {
+    display: flex;
+}
+
+.header-menu-list{
+display: flex;
+gap: 24px;
+}
+
 .header-menu-link {
     color: #111;
     font-size: 14px;
@@ -65,10 +74,27 @@ button {
         font-weight: 700;
         line-height: 1.11;
         letter-spacing: -0.03em; 
+        display: flex;
+        align-items: center;
+        gap: 4px;
 }
 
 .header-logo-italic {
         font-style: italic;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-right: 90px;
+    justify-content: space-between;
+}
+
+.header-soc-list {
+    display: flex;
+    gap: 14px;
+    align-items: center;
 }
 
 /* hero */
@@ -104,14 +130,24 @@ font-family: inherit;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
+    border: none;
+    border-radius: 100px;
+        background: #FD9222;
+        padding: 14px 40px;
+        margin-right: 14px;
+
 }
 
 .hero-made-link {
     color: #FFF;
     font-family: inherit;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: normal;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 100px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    padding: 14px 40px;
 }
 
 .hero-scrol-link {
@@ -120,6 +156,13 @@ font-family: inherit;
         font-weight: 500;
         line-height: 1.29;
         letter-spacing: -0.03em;
+        margin-left: auto;
+
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
 }
 
 /* features */
@@ -131,10 +174,14 @@ padding-bottom: 50px;
 }
 
 .features-list {
-
+display: flex;
+gap: 88px;
+padding: 0 18px;
 }
 
-.features-item {}
+.features-item {
+    width: calc((100% - 176px) / 3);
+}
 
 .features-subtitle {
     color: #FFF;
