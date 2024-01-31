@@ -99,7 +99,8 @@ gap: 24px;
 }
 
 .social-icon {
-    color: rgba(17, 17, 17, 1);
+    fill: transparent;
+    stroke: #111;
 }
 /* hero */
 
@@ -111,6 +112,10 @@ gap: 24px;
 
 .hero-container {
     background-color: rgba(17, 17, 17, 0.60);
+    background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.00) 0%, rgba(17, 17, 17, 0.40) 100%), url(../images/chocolate_main-min.jpg) ;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
     border-radius: 30px;
     padding: 380px 40px 40px 40px;
     max-width: 1166px;
@@ -320,7 +325,21 @@ color: #FD9222;
 }
 
 .made-item {
-   margin-bottom: 24px; 
+   margin-bottom: 24px;
+   display: flex;
+   gap: 8px; 
+}
+
+.made-item::before {
+content: '';
+width: 8px;
+height: 8px;
+background-color: #4C4C4C;
+border-radius: 100%;
+border: 1px solid #ECEDED;
+display: block;
+flex-shrink: 0;
+margin-top: 5px;
 }
 
 .made-item:last-child {
@@ -589,17 +608,19 @@ margin: 0 auto;
 }
 
 .footer-social-list { 
-    display: flex;
+    display: flex;  
+    gap: 14px;
 }
 
 .footer-social-item {
-    gap: 14px;
+  
 }
 
 .footer-social-link {}
 
 .social-icon-footer {
-    color: #FFF;
+    fill: transparent;
+        stroke: #fff;
 }
 
 .footer-adress-container {
