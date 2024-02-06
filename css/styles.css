@@ -103,6 +103,15 @@ gap: 24px;
 .social-icon {
     fill: transparent;
     stroke: #111;
+    transition-property: stroke;
+        transition-duration: 400ms;
+        transition-timing-function: linear;
+}
+
+.social-icon:hover {
+    fill: transparent;
+    stroke: #FD9222;
+
 }
 /* hero */
 
@@ -217,8 +226,14 @@ padding: 0 18px;
 .features-item-icon {
 border: 1px solid rgba(255, 255, 255, 0.50);
 border-radius: 100%;
-padding: 15px;
 margin-bottom: 22px;
+flex-shrink: 0;
+display: flex;
+    width: 62px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    gap: 7.303px;
 }
 
 .features-icon {
@@ -291,7 +306,25 @@ fill: transparent;
     padding: 28px 23px;
     background-color: #FD9222;
     border-radius: 15px;
+    position: relative;
 }
+
+.taste-icon-obg {
+    fill: transparent;
+    stroke: #fafafa;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
+.taste-icon-wbg {
+    fill: transparent;
+    stroke: #FD9222;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+}
+
 
 .ti-white-bg{
 background-color: #fff;
@@ -713,6 +746,14 @@ margin: 0 auto;
 .social-icon-footer {
     fill: transparent;
         stroke: #fff;
+        transition-property: stroke;
+            transition-duration: 400ms;
+            transition-timing-function: linear;
+}
+
+.social-icon-footer:hover {
+    fill: transparent;
+    stroke: #FD9222;
 }
 
 .footer-adress-container {
@@ -742,6 +783,7 @@ margin: 0 auto;
     justify-content: space-between;
     align-items: center;
 }
+
 .footer-nav {}
 
 .footer-nav-list {
