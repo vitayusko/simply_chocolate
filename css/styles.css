@@ -810,3 +810,47 @@ padding: 17px 40px;
 border-radius: 100px;
     background: #FD9222;
 }
+
+
+/* modal window */
+
+.overlay {
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: #1e18237e;
+}
+
+.modal {
+    
+    width: 517px;
+    min-height: 794px;
+    border-radius: 15px;
+    background-color: #FAFAFA;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+}
+
+.modal-title {
+    color: #111;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        
+        width: 298px;
+}
+
+.modal-title span {
+    color: #FD9222;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.16;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+}
