@@ -31,7 +31,7 @@
       <nav class="header-navigation">
         <a class="header-logo" href="#">
           <span class="header-logo-italic">SIMPLY</span> CHOCOLATE
-          <img class="header-logo-img" src="../images/chocolate.svg" alt="logo"
+          <img class="header-logo-img" src="./images/chocolate.svg" alt="logo"
         /></a>
         <ul class="header-menu-list">
           <li class="header-menu-item">
@@ -554,7 +554,9 @@
       </nav>
     
     <!-- form -->
-    <button type="button" class="subscribe-footer-btn">Subscribe</button>
+    <form class="footer-form">
+     <input class="footer-input" name="email" type="email" id="email" placeholder="Enter your email"/> 
+    <button type="submit" class="subscribe-footer-btn">Subscribe</button></form>
   </div>
 </div>
     </footer>
@@ -599,8 +601,11 @@
     <textarea id="user-text" name="user-text" class="modal-textarea" placeholder="Enter text"></textarea>
   </div>
   <div class="modal-chekbox-wraper">
-
-    
+<input type="checkbox" name="policy" id="policy" value="true" class="form-check visually-hidden">
+<label for="policy" class="check-text">
+  <span> <svg class="check-iccon" width="10" hight="10">
+    <use href="./images/icons.svg#icon-check"></use>
+  </svg></span> I accept the terms and conditions of the <a href="#"> Privacy Policy</a></label>    
   </div>
   <button class="submit-form-btn" type="submit">Send</button>
 </form>
